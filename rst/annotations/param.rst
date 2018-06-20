@@ -7,13 +7,13 @@
 
     .. image:: /images/annotation/param1.gif
 
-* 完整格式：
+* Usage:
 
 ::
 
     ---@param param_name MY_TYPE[|other_type] [@comment]
 
-* 应用目标：
+* Targets:
 
     + 函数参数
 

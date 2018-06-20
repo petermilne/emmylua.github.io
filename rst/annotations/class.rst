@@ -1,39 +1,39 @@
 .. _ann_class:
 
-@class类声明注解
--------------------
+@class class declaration
+------------------------
 
 .. note::
     EmmyLua利用 ``@class`` 注解来模拟面向对象中的类，可以继承，可以定义字段/属性
 
     .. image:: /images/annotation/class1.png
 
-* 完整格式
+* Usage:
 
 ::
 
 --@class MY_TYPE[:PARENT_TYPE] [@comment]
 
-* 应用目标：
+* Targets：
 
-    + local 变量
-    + global 变量
+    + local variables
+    + global variables
 
-* 示例：
+* Example:
 
     .. code-block:: lua
         :linenos:
         :emphasize-lines: 1
 
-        ---@class Car : Transport @定义一个Car类继承父类Transport
+        ---@class Car : Transport @Declare class Car, inherited from Transport
         local cls = class()
 
         function cls:test()
         end
 
-* 示例说明：
+* Example spec：
 
-    将 ``cls`` 变量标记为 ``Car`` 类，在其它地方可以使用 ``@type`` 注解来标记目标变量类型，以增强代码提示以及其它功能
+    Declare ``cls`` as new class ``Car``, so we can use annotation ``@type`` to mark variable's type, used to improve code completions and other features
 
 .. seealso::
     :ref:`ann_type`

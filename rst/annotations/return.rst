@@ -7,13 +7,13 @@
 
     .. image:: /images/annotation/return1.gif
 
-* 完整格式：
+* Usage:
 
 ::
 
     ---@return MY_TYPE[|OTHER_TYPE] [@comment]
 
-* 应用目标：
+* Targets:
 
     + 函数
     

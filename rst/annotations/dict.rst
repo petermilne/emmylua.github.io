@@ -1,18 +1,18 @@
 .. _ann_dict:
 
-字典类型
+Dictionary type
 -------------------
 
 .. note::
-    可以利用 ``table<KEY_TYPE, VALUE_TYPE>`` 的方式来标注一个数据类型为字典
+    Use ``table<KEY_TYPE, VALUE_TYPE>`` to mark variables as dictionary (similar to Dictionary<K,V> in C# or Map<K,V> in Java)
 
-* 完整格式：
+* Usage:
 
 ::
 
 ---@type table<KEY_TYPE, VALUE_TYPE>
 
-* 示例：
+* Example:
 
     .. code-block:: lua
         :linenos:
@@ -22,10 +22,10 @@
         local dict = {}
 
         local car = dict['key']
-        -- car. 可以出现代码提示
+        -- car. [Completion shows here]
 
         for key, car in pairs(dict) do
-            -- car. 可以出现代码提示
+            -- car. [Completion shows here]
         end
 
 .. seealso::

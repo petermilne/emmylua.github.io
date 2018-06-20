@@ -1,7 +1,7 @@
 .. 从插件仓库安装
 
-via JetBrains Plugin Repository
--------------------------------
+From JetBrains Plugin Repository
+---------------------------------
 
 .. * 打开 ``settings`` 面板
 

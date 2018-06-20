@@ -1,11 +1,11 @@
-via Zip file
+From Zip file
 -------------
 
 * Download zip file.
 
-	+ via `JetBrains Plugin Repository <https://plugins.jetbrains.com/plugin/9768-emmylua>`_
-	+ via `Github release page <https://github.com/tangzx/IntelliJ-EmmyLua/releases>`_
-	+ via QQ group: ``29850775`` (for chinese)
+	+ From `JetBrains Plugin Repository <https://plugins.jetbrains.com/plugin/9768-emmylua>`_
+	+ From `Github release page <https://github.com/tangzx/IntelliJ-EmmyLua/releases>`_
+	+ From QQ group: ``29850775`` (for chinese)
 	
 	.. warning::
 		Don't unzip file.

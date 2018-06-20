@@ -1,18 +1,18 @@
 .. _ann_fun:
 
-函数类型
+Function type
 -------------------
 
 .. note::
     可以利用 ``fun(param:MY_TYPE):RETURN_TYPE`` 的方式来标注一个数据类型为函数
 
-* 完整格式：
+* Usage:
 
 ::
 
 ---@type fun(param:MY_TYPE):RETURN_TYPE
 
-* 示例：
+* Example:
 
     .. code-block:: lua
         :linenos:
@@ -22,13 +22,13 @@
         local carCreatorFn1
 
         local car = carCreatorFn1('key')
-        -- car. 可以出现代码提示
+        -- car. [Completion shows here]
 
         ---@type fun():Car[]
         local carCreatorFn2
 
         for i, car in ipairs(carCreatorFn2()) do
-            -- car. 可以出现代码提示
+            -- car. [Completion shows here]
         end
 
 .. seealso::
